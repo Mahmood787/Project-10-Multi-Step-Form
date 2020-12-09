@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import StepperForm from './components/StepperForm';
 import { AppBar, Toolbar, Typography } from '@material-ui/core';
