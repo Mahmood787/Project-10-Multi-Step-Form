@@ -6,11 +6,11 @@ import { AppBar, Toolbar, Typography } from '@material-ui/core';
 
 function App() {
   return (
-    <div className="App" style={{background:"#ececec"}}>
+    <div className="App" >
       <AppBar position="static" style={{marginBottom:"60px"}}>
       <Toolbar variant="dense">
       <Typography variant="h6" color="inherit">
-      Photos
+      Multi Step Form
     </Typography>
     </Toolbar>
       </AppBar>
