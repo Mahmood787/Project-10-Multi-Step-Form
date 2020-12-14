@@ -33,6 +33,9 @@ const StepperForm = () => {
                                     <Field fullWidth name="lastName" component={TextField} label="lastName"/>              
                                 </Box>
                                 <Box paddingBottom={2}>
+                                    <Field fullWidth name="lastName" component={TextField} label="Email"/>              
+                                </Box>
+                                <Box paddingBottom={2}>
                                     <Field name="millionaire" type= "checkbox" component={CheckboxWithLabel} Label={{label:"I am a millionair"}}/>
                                 </Box>
                             </FormikStep>
