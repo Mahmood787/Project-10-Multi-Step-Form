@@ -7,7 +7,7 @@ import {object, mixed, number} from "yup"
 const sleep=(time:number)=>new Promise((acc)=> setTimeout(acc, time))
 const StepperForm = () => {
     return (
-        <div style={{width:"60%", margin:"auto"}}>
+        <div style={{width:"60%", margin:"auto"}} className="main-div">
             <Card>
                 <CardContent>
                     <FormikStepper 
